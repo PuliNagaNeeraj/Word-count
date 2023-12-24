@@ -30,6 +30,7 @@ Finding the given length of the words by using len() fuction.
 Calling the function and Printing the number of words.
 
 ## PROGRAM:
+```
 #Program to find the word count.
 #Developed by: PULI NAGA NEERAJ
 #RegisterNumber:23004033
@@ -39,6 +40,7 @@ with open('text.txt','r') as file1:
  word =i.split()
  num_words += len(word)
 print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
 ![WhatsApp Image 2023-12-24 at 15 01 06_65126ab7](https://github.com/PuliNagaNeeraj/Word-count/assets/138849173/f7498576-04ab-4518-ba36-ff93847e5d92)
 
